@@ -905,7 +905,7 @@ var config = {
     // prevent execution of the click/tap routine; passing an object with `key` and
     // `preventExecution` flag on false will not prevent execution of the click/tap
     // routine. Below array with mixed mode for passing the buttons.
-    // participantMenuButtonsWithNotifyClick: [
+    //participantMenuButtonsWithNotifyClick: [
     //     'allow-video',
     //     {
     //         key: 'ask-unmute',
@@ -934,7 +934,8 @@ var config = {
     //     },
     //     'send-participant-to-room',
     //     'verify',
-    // ],
+    //    'return-to-lobby',
+    //],
 
     // List of pre meeting screens buttons to hide. The values must be one or more of the 5 allowed buttons:
     // 'microphone', 'camera', 'select-background', 'invite', 'settings'
